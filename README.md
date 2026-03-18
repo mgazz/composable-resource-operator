@@ -4,7 +4,7 @@
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/CoHDI/composable-resource-operator/badge)](https://scorecard.dev/viewer/?uri=github.com/CoHDI/composable-resource-operator)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/12016/badge)](https://www.bestpractices.dev/projects/12016)
 
-A Kubernetes operator that dynamically attaches and detaches composable hardware resources—such as GPUs and CXL memory—to cluster nodes using the CDI (Composable Device Infrastructure) API.
+A Kubernetes operator that dynamically attaches and detaches composable hardware resources, such as GPUs, to cluster nodes using the CDI (Composable Device Infrastructure) API.
 
 ## Description
 
@@ -17,7 +17,6 @@ The `composable-resource-operator` bridges that gap. It watches for `Composabili
 | Type | Description |
 |------|-------------|
 | `gpu` | NVIDIA GPU cards exposed via the CDI composable fabric |
-| `cxl` | CXL-attached memory modules |
 
 ## Architecture
 
